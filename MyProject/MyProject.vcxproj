@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2.6셀프체크.cpp" />
     <ClCompile Include="2.6프로젝트.cpp" />
     <ClCompile Include="helloworld.c" />
   </ItemGroup>

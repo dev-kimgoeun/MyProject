@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 //경찰조서쓰기
-int main(void) {
+int main_police(void) {
 	//이름
 	char name[256];
 	printf("이름이 뭐예요? ");
 	scanf_s("%s", name, sizeof(name));
 	
-
 	//나이
 	int age;
 	printf("몇 살이예요? ");
