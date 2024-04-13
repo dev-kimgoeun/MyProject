@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //회원등록
-int main(void) {
+int main_2in (void) {
 	//이름
 	char name[256];
 	printf("이름을 입력하세요. : ");

@@ -24,5 +24,8 @@
     <ClCompile Include="2.6셀프체크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="loop.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
