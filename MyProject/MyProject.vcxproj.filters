@@ -27,5 +27,8 @@
     <ClCompile Include="loop.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3.5프로젝ㄷ트.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

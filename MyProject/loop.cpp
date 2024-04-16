@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main_3loop(void) {
 	int a = 10;
 	printf("a´Â %d\n", a);
 
