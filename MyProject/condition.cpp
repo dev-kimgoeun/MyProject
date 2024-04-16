@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
 
-int main(void) {
+
+int main_4con(void) {
 	int age = 15;
 	if (age >= 20) {
 		printf("성년입니다. \n");
@@ -46,6 +49,32 @@ int main(void) {
 			}
 			printf("%d번 학생은 조별과제를 준비하세요. \n", i);
 		}
+	}
+
+	printf("난수 초기화 이전 ... \n");
+	for (int i = 0; i < 10; i++) {
+		printf("%d ", rand() % 10);
+	}
+	srand(time(NULL));
+	printf("\n\n 난수 초기화 이후 ,,, \n");
+	for (int i = 0; i < 10; i++) {
+		printf("%d ", rand() % 10);
+	}
+	printf(" ");
+
+	srand(time(NULL));
+	int i = rand() % 3;
+	 
+	switch (i) {
+	case 0: printf("가위 \n");
+		break;
+	case 1: printf("바위 \n");
+		break;
+	case 2: printf("보 \n");
+		break;
+
+	default: printf("몰라요 \n");
+		break;
 	}
 	return 0;
 }
