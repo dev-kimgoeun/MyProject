@@ -9,7 +9,7 @@ void success();
 void fail();
 void convert_time(int time);
 
-int main(void) {
+int main_5check(void) {
 	srand(time(NULL));
 	int count = 0;
 	for (int i = 1; i <= 5; i++) {
