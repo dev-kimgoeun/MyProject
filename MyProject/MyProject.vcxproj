@@ -134,6 +134,7 @@
     <ClCompile Include="4.5프로젝트.cpp" />
     <ClCompile Include="5.5프로젝트.cpp" />
     <ClCompile Include="6.6프로젝트.cpp" />
+    <ClCompile Include="7.4프로젝트.cpp" />
     <ClCompile Include="array.cpp" />
     <ClCompile Include="condition.cpp" />
     <ClCompile Include="helloworld.c" />
