@@ -11,6 +11,8 @@ void decreaseWater(long elapsedTime);
 int* cursor;
 int checkFishAlive();
 
+void square(int* ptr);
+
 int main(void) {
 	long startTime = 0;
 	int num;
@@ -61,6 +63,18 @@ int main(void) {
 		prevElapsedTime = totalElapsedTime;
 	}
 
+	//ºø«¡√º≈©
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	for (int i = 0; i < 10; i++) {
+		square(&arr[i]);
+	}
+	for (int i = 0; i < 10; i++) {
+		printf("%d", arr[i]);
+		if (i + 1 < 10) {
+			printf(", ");
+		}
+	}
+
 	return 0;
 }
 
@@ -88,10 +102,16 @@ void decreaseWater(long elapsedTime) {
 }
 
 int checkFishAlive() {
+	
 	for (int i = 0; i < 6; i++) {
 		if (arrayFish[i] > 0) {
 			return 1;
 		}
 	}
 	return 0;
+}
+void square(int* ptr) {
+	if (*ptr % 2 == 0) {
+		*ptr = *ptr * *ptr;
+	}
 }
