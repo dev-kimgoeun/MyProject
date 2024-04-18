@@ -13,7 +13,7 @@ int checkFishAlive();
 
 void square(int* ptr);
 
-int main(void) {
+int main_7check(void) {
 	long startTime = 0;
 	int num;
 	long totalElapsedTime= 0;
