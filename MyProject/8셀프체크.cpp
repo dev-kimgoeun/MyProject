@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main_8check(void) {
 	int input = 0;
 	const char* items[3][4] =
 	{

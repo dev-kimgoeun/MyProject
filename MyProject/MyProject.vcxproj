@@ -137,11 +137,15 @@
     <ClCompile Include="7.4프로젝트.cpp" />
     <ClCompile Include="8.4프로젝트.cpp" />
     <ClCompile Include="8셀프체크.cpp" />
+    <ClCompile Include="9.5프로젝트.c" />
+    <ClCompile Include="9셀프체크.c" />
     <ClCompile Include="array.cpp" />
     <ClCompile Include="condition.cpp" />
+    <ClCompile Include="file.c" />
     <ClCompile Include="helloworld.c" />
     <ClCompile Include="loop.cpp" />
     <ClCompile Include="pointer.cpp" />
+    <ClCompile Include="struct.c" />
     <ClCompile Include="다차원배열.cpp" />
     <ClCompile Include="함수.cpp" />
   </ItemGroup>
