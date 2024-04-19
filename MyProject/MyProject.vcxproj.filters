@@ -78,5 +78,8 @@
     <ClCompile Include="10.4프로젝트.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10셀프체크.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

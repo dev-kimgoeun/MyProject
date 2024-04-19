@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10.4프로젝트.c" />
+    <ClCompile Include="10셀프체크.c" />
     <ClCompile Include="2.6셀프체크.cpp" />
     <ClCompile Include="2.6프로젝트.cpp" />
     <ClCompile Include="3.5프로젝ㄷ트.cpp" />

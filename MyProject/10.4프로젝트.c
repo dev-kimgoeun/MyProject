@@ -4,7 +4,7 @@
 #include <string.h>
 #define MAX 10000
 
-int main(void) {
+int main_10pro(void) {
 	char password[20];
 	char c;
 	int i = 0;
